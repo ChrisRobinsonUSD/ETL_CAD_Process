@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------------
-# Name:         San_Mateo_ETL_Workflow.py
-# Purpose:      To process VEP dataset for use in Versaterm CAD for San Mateo County.
+# Name:         ETL_Workflow.py
+# Purpose:      
 #
 # Author:       Chris Robinson
 #

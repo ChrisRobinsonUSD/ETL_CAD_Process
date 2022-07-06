@@ -1,13 +1,13 @@
 import arcpy
 import csv
 
-structures = "C:\Users\chris.robinson\Desktop\Corona_MSAG_Compare\Corona_SecondRun_Final\Corona_SecondRun_Final.gdb\Corona_Site_Address_Points"
+structures = "C:\Users\chris.robinson\Desktop\Site_Address_Points"
 structureFields = [ "add_number", "st_predir","st_name","st_postyp","st_posdir", "ESN"]
 
-msag = "C:\Users\chris.robinson\Desktop\Corona_MSAG_Compare\Corona_SecondRun_Final\Corona_SecondRun_Final.gdb\Corona_MSAG"
+msag = "C:\Users\chris.robinson\Desktop\SecondRun_Final.gdb\MSAG"
 msagFields = ["dir", "street", "low", "high", "o_e","community", "esn"]
 
-csvfile = "C:\Users\chris.robinson\Desktop\Corona_MSAG_Compare\Corona_SecondRun_Final\SAP_MSAG_Compare.csv"
+csvfile = "C:\Users\chris.robinson\Desktop\MSAG_Compare.csv"
 
 myfile = csv.writer(open(csvfile, "wb"))  
 
